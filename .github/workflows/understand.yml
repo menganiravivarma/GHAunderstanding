@@ -1,7 +1,7 @@
 name: firstworkflow
 on:
   push:
-    branches: main
+    branches: [main]
 jobs:
   understand:
     runs-on: ubuntu.latest
