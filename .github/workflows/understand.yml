@@ -5,6 +5,7 @@ on:
 jobs:
   understand:
     runs-on: ubuntu.latest
+    
     steps:
       - name: greetings
         run: echo "Hello, World"
